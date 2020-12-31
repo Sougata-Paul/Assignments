@@ -1,7 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 #reg{
     margin-left: 15%;
     margin-right: 15%;
@@ -9,10 +5,12 @@
     background-color: goldenrod;
     margin-top: 30px;
     color: white;
+    border-radius: 12px;
 }
 .cls1{
     padding: 10px;
     margin:10px;
+    border-radius: 12px;
 }
 #nameTR{
     border-collapse: collapse;
@@ -26,4 +24,5 @@
     width: 50%;
     margin: 3px;
     padding: 4px;
+    border-radius: 12px;
 }
