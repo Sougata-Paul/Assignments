@@ -14,7 +14,7 @@ function Create(){
     gname=document.getElementById("name").value;
     if(gname=="")
     {
-        alert("write the name");
+        alert("Please Fill Your Name");
     }
     else{
         if(storage==null){
@@ -32,13 +32,13 @@ function Read(){
     userme.innerHTML="";
     names2=JSON.parse(localStorage.getItem("names"));
     if(names2==null){
-        userme.innerHTML+='<tr> <th class="space">#</th> <th class="space">NAME</th> <th class="space">OPERATION</th></tr>'
+        userme.innerHTML+='<tr> <th class="cls1">#</th> <th class="cls1">NAME</th> <th class="cls1">OPERATION</th></tr>'
         
     }
     else{
-        userme.innerHTML+='<tr> <th class="space">#</th> <th class="space">NAME</th> <th class="space">OPERATION</th></tr>'
+        userme.innerHTML+='<tr> <th class="cls1">#</th> <th class="cls1">NAME</th> <th class="cls1">OPERATION</th></tr>'
         for(var i=0;i<names2.length;i++){
-            userme.innerHTML+='<tr><td class="space">'+(i+1)+'</td><td class="space">'+names2[i]+'</td><td class="space"><button Onclick="Delete('+(i)+')">Delete</button></td></tr>'
+            userme.innerHTML+='<tr><td class="cls1">'+(i+1)+'</td><td class="cls1">'+names2[i]+'</td><td class="cls1"><button Onclick="Delete('+(i)+')">Delete</button></td></tr>'
         }
     }
 }

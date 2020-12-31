@@ -10,7 +10,7 @@
     margin-top: 30px;
     color: white;
 }
-.space{
+.cls1{
     padding: 10px;
     margin:10px;
 }
@@ -23,7 +23,7 @@
     border: 1px solid #dddddd;
 }
 #nameTR button{
-    width: 45%;
+    width: 50%;
     margin: 3px;
     padding: 4px;
 }
