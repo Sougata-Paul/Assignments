@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#reg{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    background-color: goldenrod;
+    margin-top: 30px;
+    color: white;
+}
+.space{
+    padding: 10px;
+    margin:10px;
+}
+#nameTR{
+    border-collapse: collapse;
+    width: 100%;
+}
+#nameTR td,th{
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+#nameTR button{
+    width: 45%;
+    margin: 3px;
+    padding: 4px;
+}
